@@ -1,0 +1,40 @@
+Source: unorm.js
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Xavier Guimard <yadd@debian.org>
+Section: javascript
+Testsuite: autopkgtest-pkg-nodejs
+Priority: optional
+Build-Depends: debhelper-compat (= 12),
+               mocha,
+               nodejs,
+               pkg-js-tools (>= 0.8.8)
+Standards-Version: 4.4.1
+Vcs-Browser: https://salsa.debian.org/js-team/unorm.js
+Vcs-Git: https://salsa.debian.org/js-team/unorm.js.git
+Homepage: https://github.com/walling/unorm
+Rules-Requires-Root: no
+
+Package: libjs-unorm
+Architecture: all
+Depends: ${misc:Depends}
+Description: Common JS Unicode Normalizer (client/browser)
+ Normalization is a process that involves transforming characters and sequences
+ of characters into a formally-defined underlying representation. This process
+ is most important when text needs to be compared for sorting and searching,
+ but it is also used when storing text to ensure that the text is stored in a
+ consistent representation.
+ .
+ This package provides a Common JS Unicode Normalizer (client/browser version).
+
+Package: node-unorm
+Architecture: all
+Depends: ${misc:Depends},
+         nodejs
+Description: Common JS Unicode Normalizer (Node.js)
+ Normalization is a process that involves transforming characters and sequences
+ of characters into a formally-defined underlying representation. This process
+ is most important when text needs to be compared for sorting and searching,
+ but it is also used when storing text to ensure that the text is stored in a
+ consistent representation.
+ .
+ This package provides a Common JS Unicode Normalizer (Node.js).

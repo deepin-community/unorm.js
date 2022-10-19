@@ -1,0 +1,6 @@
+# Related line is an array of UTF8 chars
+insane-line-length-in-source-file lib/unorm.js line length is 5333 characters (>512)
+source-contains-prebuilt-javascript-object lib/unorm.js line length is 5333 characters (>512)
+insane-line-length-in-source-file src/unormdata.js line length is 5335 characters (>512)
+source-contains-prebuilt-javascript-object src/unormdata.js line length is 5335 characters (>512)
+source-is-missing src/unormdata.js line length is 5335 characters (>512)

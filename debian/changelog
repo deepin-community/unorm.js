@@ -1,0 +1,63 @@
+unorm.js (1.6.0-2) unstable; urgency=medium
+
+  * Reupload to unstable
+
+ -- Xavier Guimard <yadd@debian.org>  Fri, 10 Jan 2020 06:31:25 +0100
+
+unorm.js (1.6.0-1) unstable; urgency=medium
+
+  * Declare compliance with policy 4.4.1
+  * Add "Rules-Requires-Root: no"
+  * New upstream version 1.6.0
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 28 Dec 2019 14:33:00 +0100
+
+unorm.js (1.4.1-2) unstable; urgency=medium
+
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.4.0
+  * Add debian/gbp.conf
+  * Switch install to pkg-js-tools
+  * Clean docs
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 03 Aug 2019 15:44:46 +0200
+
+unorm.js (1.4.1-1) unstable; urgency=medium
+
+  * New upstream version 1.4.1
+  * Bump debhelper compatibility level to 11
+  * Declare compliance with policy 4.3.0
+  * Change section to javascript
+  * Change priority to optional
+  * Replace Mike Gabriel by myself in uploaders. Thanks for your work!
+    (Closes: #921367)
+  * Update VCS fields to salsa
+  * Update copyrights
+  * Add tests based on pkg-js-tools and mocha
+  * Hide false positive lintian error
+  * Add upstream/metadata
+  * Fix install
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 12 Feb 2019 07:14:32 +0100
+
+unorm.js (1.0.5-1) unstable; urgency=low
+
+  * New upstream release.
+  * Re-arrange packaging due to several path changes in new upstream release.
+  * /debian/docs:
+    + Install package.json into doc folder.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sun, 26 May 2013 20:57:00 +0200
+
+unorm.js (1.0.3-2) unstable; urgency=low
+
+  * /debian/control:
+    + Fix versioned dependency on nodejs.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sun, 19 May 2013 15:25:29 +0200
+
+unorm.js (1.0.3-1) unstable; urgency=low
+
+  * Initial release. (Closes: #707887).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sun, 12 May 2013 02:42:44 +0200

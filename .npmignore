@@ -1,0 +1,15 @@
+.npmignore
+.DS_Store
+
+benchmark/
+src/
+coverage/
+test/
+data/
+examples/
+
+bower.json
+.travis.yml
+.jshintrc
+
+Gruntfile.js
